@@ -6,10 +6,11 @@ using namespace std;
 // This is the main stack that contains all the data
 int mainStack[100];
 
-// This is the A register in the CPU
+// This is the 'A' register in the CPU
 int accumulator;
 
 // The Opcode Functions
+
 int write(int address, int mainStack[]){
 	int userInput = 0;
 	cin >> userInput;
